@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+
+}
+
+.header h1{
+    font-size: 5rem;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: transparent;
+    background-image: url(./textimagw.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-clip: text;
+}
+.album{
+    height: 400px;
+    width: 800px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 0px 20px;
+
+}
+.photo{
+    width: 150px;
+    height: 350px;
+    border-radius: 15px;
+}
+.photo:hover{
+    width: 300px;
+    z-index: 9999;
+    box-shadow: 10px 10px 40px whitesmoke;
+    transition: all ease-in-out 1s;
+}
+
+#photo1{
+    background-image: url(./bmw.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#photo2{
+    background-image: url(./lambo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#photo3{
+    background-image: url(./ferrari.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#photo4{
+    background-image: url(./oldcar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#photo5{
+    background-image: url(./astonmartin.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
